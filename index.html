@@ -7,7 +7,7 @@
     <title></title>
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="css/yyr.css" />
+    <link rel="stylesheet" href="css/slides-extended.css" />
     <link rel="stylesheet" href="00-09 Me/02 Snippets & Backups/02.20 Obsidian/revealjs-slides-styles/yyr.css" id="theme" />
     <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
     <link rel="stylesheet" href="plugin/customcontrols/style.css">
@@ -142,22 +142,7 @@
 
 ## How they work
 
-
-<div class="mermaid">
-graph TD
-    A[Start Inference] --> B[Load System Prompt]
-    B --> C[Tokenize Input System + User]
-    C --> D[Convert Tokens to Embeddings]
-    D --> E[Pass Through Transformer Layers]
-    E --> F[Compute Logits for Next Token]
-    F --> G[Sample or Select Next Token]
-    G --> H{Is Output Complete?}
-    H -- No --> I[Append Token to Input]
-    I --> E
-    H -- Yes --> J[Return Final Output]
-    J --> K[End Inference]
-
-</div>
+<iframe src="https://excalidraw.com/#json=dgm1JNJMRxNyBltnTOlXs,GpZoUgFmMSo49bA5qrXu-w" width="100%" height="75%"></iframe>
 </div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
